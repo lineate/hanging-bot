@@ -68,13 +68,7 @@
         <dependency>
             <groupId>com.lineate</groupId>
             <artifactId>xonix-mind-commons</artifactId>
-            <version>1.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.20</version>
-            <scope>provided</scope>
+            <version>1.1.0</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

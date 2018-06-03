@@ -1,7 +1,7 @@
 package abc;
 
 import com.lineate.xonix.mind.model.Bot;
-import com.lineate.xonix.mind.model.GameStateView;
+import com.lineate.xonix.mind.model.GameState;
 import com.lineate.xonix.mind.model.Move;
 
 public class HangingBot implements Bot {
@@ -10,7 +10,7 @@ public class HangingBot implements Bot {
         return "I calculate \u03c0";
     }
 
-    public Move move(GameStateView gs) {
+    public Move move(GameState gs) {
         try {
             // pi/4 = 1 - 1/3 + 1/5 - 1/7 + ...
             double pi4 = -1;
